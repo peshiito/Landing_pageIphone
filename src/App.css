@@ -344,13 +344,14 @@ select:focus-visible {
     background-image: url("./assets/hero-iphone.jpg");
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 500px auto;
-    min-height: 440px;
+    background-size: auto 420px;
+    min-height: 460px;
   }
 }
 @media (min-width: 1100px) {
   .hero .container {
-    background-size: 600px auto;
+    background-size: auto 520px;
+    min-height: 560px;
   }
 }
 .hero-grid {
